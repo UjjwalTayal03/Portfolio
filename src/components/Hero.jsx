@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import iconportfolio from "../assets/iconportfolio.webp";
+
 
 const Hero = () => {
   return (
@@ -9,7 +11,7 @@ const Hero = () => {
         <div className='absolute inset-0 rounded-full bg-gradient-to-b from-purple-50 to-purple-900 blur-3xl opacity-50'></div>
         <img
           className='relative h-44 w-44 object-contain'
-          src="src/assets/iconportfolio.webp"
+          src={iconportfolio}
           alt="profile icon"
         />
       </div>

@@ -1,4 +1,6 @@
 import React from 'react'
+import pro1 from "../assets/pro1.png"
+import pro2 from "../assets/pro2.png"
 
 const Projects = () => {
   return (
@@ -14,7 +16,7 @@ const Projects = () => {
             <div className='w-4/5  relative scale-110 '>
            <div className='absolute z-10 w-64 h-64 rounded-full bg-gradient-to-tr from-blue-300 to-purple-900 blur-3xl opacity-90 translate-x-44'></div>
 
-             <img className='h-max w-full object-cover rounded-2xl relative z-20' src="src\assets\pro1.png" alt="" /></div>
+             <img className='h-max w-full object-cover rounded-2xl relative z-20' src={pro1} alt="idk" /></div>
         </div>
 
 
@@ -22,7 +24,7 @@ const Projects = () => {
         <div className='project2 flex relative  items-center mb-20'>
            <div className='w-4/5  relative  scale-110 translate-x-8'>
             <div className='absolute z-10 w-64 h-64 rounded-full bg-gradient-to-tl from-blue-300 to-purple-900 blur-3xl opacity-90 '></div>
-            <img className='h-max w-full object-cover rounded-2xl relative z-20' src="src\assets\pro2.png" alt="" /></div>
+            <img className='h-max w-full object-cover rounded-2xl relative z-20' src={pro2} alt="" /></div>
             <div className='desc w-full relative  z-50 flex flex-col items-end text-right'>
                 <h2 className='text-purple-600 font-semibold text-right'>Project 2</h2>
                 <h3 className='text-2xl mb-5 font-semibold opacity-90 text-right'>Internship Portal</h3>
