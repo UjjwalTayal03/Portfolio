@@ -16,7 +16,8 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div className="max-w-5xl mx-auto py-20 px-5 mt-10 relative" id="skills">
+<div className="max-w-5xl mx-auto py-20 px-4 sm:px-6 mt-10 relative" id="skills">
+
         <div className="absolute inset-0 w-1/2 rounded-full bg-gradient-to-b from-purple-800 to-purple-900 blur-3xl opacity-50 translate-x-1/2 "></div>
       <h2 className="text-3xl md:text-4xl font-medium text-white mb-10 text-center relative">
         My Skills

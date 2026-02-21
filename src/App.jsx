@@ -11,15 +11,15 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='scroll-smooth'>
-      <Navbar/>
-      <div className='w-7/12 m-auto'> 
-      <Hero/>
-      <About/>
-      <Skills/>
-      <Projects/>
-      <Contact/>
-      
+    <div className="scroll-smooth">
+      <Navbar />
+      {/* Added responsive width for smaller screens */}
+      <div className="w-11/12 sm:w-10/12 md:w-8/12 lg:w-7/12 mx-auto px-4">
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />
       </div>
     </div>
   )
