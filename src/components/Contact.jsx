@@ -5,7 +5,7 @@ import { MdEmail, MdPhone } from "react-icons/md";
 
 const Contact = () => {
   return (
-    <div className="text-white mt-32 text-center md:text-left" id="Contact">
+    <div className="text-white mt-32 text-center md:text-left mb-16" id="Contact">
       <h1 className="text-2xl mb-10">Contact</h1>
       <p className="w-full md:w-3/4 text-sm leading-relaxed mb-6 mx-auto md:mx-0">
         I'm currently looking to join a cross-functional team that values improving people's lives through accessible design.
